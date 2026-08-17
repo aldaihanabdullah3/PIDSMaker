@@ -1,0 +1,513 @@
+file:c:/$logfile,{'file': 'C:\\$LogFile'},0
+file:c:/programdata/microsoft/windows/caches/s.db,{'file': 'C:\\ProgramData\\Microsoft\\Windows\\Caches\\s.db'},0
+file:c:/programdata/microsoft/windows/caches/wu.dat,{'file': 'C:\\ProgramData\\Microsoft\\Windows\\Caches\\wu.dat'},0
+file:c:/programdata/microsoft/windows/caches/y.db,{'file': 'C:\\ProgramData\\Microsoft\\Windows\\Caches\\y.db'},0
+file:c:/programdata/microsoft/windows/wer/reportarchive/critical_powershell.exe_8899618aedd86dd224d472bc8966a26d7b4998c_00000000_6b447738-df6c-4843-9748-97deeb35c8fe/report.wer,{'file': 'C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\Critical_powershell.exe_8899618aedd86dd224d472bc8966a26d7b4998c_00000000_6b447738-df6c-4843-9748-97deeb35c8fe\\Report.wer'},0
+file:c:/users/admin/appdata/local/microsoft/clr_v4.0/usagelogs/powershell.exe.log,{'file': 'C:\\Users\\admin\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\powershell.exe.log'},0
+file:c:/users/admin/appdata/local/microsoft/windows/powershell/startupprofiledata-interactive,{'file': 'C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-Interactive'},0
+file:c:/users/admin/appdata/local/microsoft/windows/powershell/startupprofiledata-noninteractive,{'file': 'C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive'},0
+file:c:/users/admin/appdata/local/microsoft/windows/wupdate.exe,{'file': 'C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\wupdate.exe'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_12dvwrb1.r34.psm1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_12dvwrb1.r34.psm1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_3faggnga.je2.ps1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_3faggnga.je2.ps1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_3l0w4wtp.apw.ps1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_3l0w4wtp.apw.ps1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_4m5la0c1.q0w.ps1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_4m5la0c1.q0w.ps1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_f0zlbywq.2sb.psm1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_f0zlbywq.2sb.psm1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_fgbqxfnk.kfj.psm1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_fgbqxfnk.kfj.psm1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_guacldxr.xe1.ps1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_guacldxr.xe1.ps1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_i4kzb05x.3ji.psm1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_i4kzb05x.3ji.psm1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_uvhawxtv.3o2.ps1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_uvhawxtv.3o2.ps1'},0
+file:c:/users/admin/appdata/local/temp/__psscriptpolicytest_zxloymnb.owb.psm1,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_zxloymnb.owb.psm1'},0
+file:c:/users/admin/appdata/local/temp/payload_log.txt,{'file': 'C:\\Users\\admin\\AppData\\Local\\Temp\\payload_log.txt'},0
+netflow:10.60.60.10:443,{'netflow': '10.60.60.10:443'},0
+netflow:10.60.60.20:443,{'netflow': '10.60.60.20:443'},0
+netflow:172.178.240.163:443,{'netflow': '172.178.240.163:443'},0
+subject:evasive_20260812_131739:10000:1786548417791304500,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10008:1786545753593301600,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10012:1786548324211306100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10028:1786549813934419900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10148:1786545999720513700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:1020:1786545598907639000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10260:1786555026373649800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10296:1786552919752822400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10336:1786552267366761400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10360:1786550841788617800,{'subject': 'fsutil.exe'},0
+subject:evasive_20260812_131739:10380:1786551957073125200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:10392:1786546431851217200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10496:1786553013233516600,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10544:1786549565901414200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:10544:1786552825613102800,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:10556:1786545753598943600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:10604:1786551147392881300,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10608:1786549441038605700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10680:1786549688785491100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:10688:1786545349209519100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10696:1786545349213577000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:10744:1786553013233764800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10880:1786551056120856400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10884:1786554806943926500,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:10900:1786549813940081600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:11068:1786546216454173200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:11104:1786550003712371600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:11160:1786552176952356400,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:11196:1786550717645767300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:11200:1786555736834130600,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:1204:1786553013233495200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:1252:1786550717640025300,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:1308:1786549159158811900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:1504:1786544942887975100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:1512:1786549062893642900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:1632:1786543921116985400,{'subject': 'ROUTE.EXE'},0
+subject:evasive_20260812_131739:1708:1786552730181794200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:1748:1786553689431169000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:1808:1786543241009016900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:1928:1786544231812047600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:1948:1786546431863000700,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2256:1786552482640384600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2264:1786544325147143900,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:2264:1786553013238581600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2268:1786554033219675000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2436:1786543023886368800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:2436:1786555026377700200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2676:1786543023890182000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:280:1786548417790150000,{'subject': 'SIHClient.exe'},0
+subject:evasive_20260812_131739:2828:1786551863256474100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2848:1786544819993413100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:2964:1786543147429704100,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:2972:1786552825608161800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:3108:1786555859541918400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:3180:1786549345226880400,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:3180:1786550841681523500,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:3300:1786542776284243400,{'subject': 'schtasks.exe'},0
+subject:evasive_20260812_131739:3408:1786546927269983800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:3444:1786544325153423900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:3636:1786549565890684700,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:3916:1786549441042283000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:3916:1786551147396554000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:3992:1786549688782471000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:4108:1786554900268929400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:4160:1786542838581825300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:4208:1786546927273644700,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:424:1786547673119449700,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:424:1786549910560341800,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:4376:1786551863246729000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:4444:1786549626306358500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:444:1786542849342489700,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:4508:1786544727795144200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:4588:1786546431851255700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:4648:1786542776201949800,{'subject': 'schtasks.exe'},0
+subject:evasive_20260812_131739:468:1786549062884523000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:480:1786549502803177200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:480:1786551240228332300,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:4844:1786554900275145300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:4860:1786549252623495400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5028:1786554806949256400,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:5160:1786543829097756700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5236:1786551767743232700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5276:1786547673115341500,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5400:1786549252637907100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:5560:1786550003704859000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5568:1786542931452389200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:5628:1786544942893263100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:5676:1786544819988657900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5720:1786546431862131500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:5792:1786549813933976300,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:5984:1786544016388667900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:5984:1786550841688443700,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6024:1786543829194283200,{'subject': 'ARP.EXE'},0
+subject:evasive_20260812_131739:6076:1786545099843203800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6092:1786542850669843800,{'subject': 'wermgr.exe'},0
+subject:evasive_20260812_131739:6092:1786545160941097800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6100:1786552267371787500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6168:1786546927273632200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6184:1786548324219951500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6228:1786548417807375500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6284:1786548970630328400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6496:1786544727801877100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6516:1786543921033454800,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6600:1786552082528588200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6608:1786549158039197800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6632:1786542931446606300,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6684:1786543921030139200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6740:1786549502812286000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6772:1786548324347831500,{'subject': 'SIHClient.exe'},0
+subject:evasive_20260812_131739:6792:1786547794831185700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6796:1786553628145666200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:684:1786554376256153400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:6852:1786548230667833000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:6996:1786547050422680800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7064:1786542776315685100,{'subject': 'wupdate.exe'},0
+subject:evasive_20260812_131739:712:1786554376262339900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:7136:1786549345221560400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7208:1786544605155726900,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:7256:1786546306745333000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7332:1786548324212902600,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7464:1786544231808162500,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7504:1786553537688929700,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:7508:1786543335344009100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7536:1786549813940175500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:7640:1786543427396538500,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:7644:1786544605159295300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:7840:1786542774857821000,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:7848:1786549626296424200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7872:1786551957069982200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:7932:1786543241129051800,{'subject': 'reg.exe'},0
+subject:evasive_20260812_131739:8044:1786545160944788200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8256:1786544820077106800,{'subject': 'findstr.exe'},0
+subject:evasive_20260812_131739:8260:1786546835078427100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8284:1786552082525379900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8300:1786542838577742100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8300:1786543829101804500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8412:1786553537671873200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8448:1786552825613459800,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8460:1786552825608665100,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8464:1786548230662960400,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8468:1786542776230536400,{'subject': 'schtasks.exe'},0
+subject:evasive_20260812_131739:8496:1786553689533378600,{'subject': 'findstr.exe'},0
+subject:evasive_20260812_131739:8496:1786555736841279400,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8504:1786546216448991500,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8520:1786543241016222900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:856:1786543147435531600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8624:1786543427401687900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8656:1786542777001384700,{'subject': 'wermgr.exe'},0
+subject:evasive_20260812_131739:8700:1786545037138455100,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8712:1786547050426557500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8756:1786542774960411000,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8792:1786545037135368900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:8948:1786542849346263900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8948:1786544231905962600,{'subject': 'tar.exe'},0
+subject:evasive_20260812_131739:8948:1786548324218001300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:8984:1786548970635377900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9036:1786554033213850200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9116:1786545099846225300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9160:1786544016385705200,{'subject': 'powershell.exe'},0
+subject:evasive_20260812_131739:9164:1786552730171960900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9180:1786546927270069700,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:936:1786549910546224300,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9380:1786545999724120600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9380:1786546306749086700,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9384:1786551767750179200,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9400:1786553689416821800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9412:1786546093544004900,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9452:1786547794836331900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9460:1786551056127922600,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9468:1786553628142081200,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9488:1786545598911550300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9608:1786551335959226000,{'subject': 'SIHClient.exe'},0
+subject:evasive_20260812_131739:9664:1786552482636444600,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9692:1786555860667957400,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9740:1786546093550357300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9768:1786553013238282500,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9796:1786545443819222300,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9800:1786551240236076900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9816:1786545443812795600,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9864:1786545256836108000,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9872:1786545256843022900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:992:1786552176946628800,{'subject': 'cmd.exe'},0
+subject:evasive_20260812_131739:9968:1786546835081921900,{'subject': 'conhost.exe'},0
+subject:evasive_20260812_131739:9972:1786553013238177500,{'subject': 'conhost.exe'},0
+registry:autodetect,{'file': 'AutoDetect'},0
+registry:crls,{'file': 'CRLs'},0
+registry:ctls,{'file': 'CTLs'},0
+registry:certificates,{'file': 'Certificates'},0
+registry:intranetname,{'file': 'IntranetName'},0
+registry:inventoryapplicationfile,{'file': 'InventoryApplicationFile'},0
+registry:microsoft,{'file': 'Microsoft'},0
+registry:puuactive,{'file': 'PUUActive'},0
+registry:permissionschecktestkey,{'file': 'PermissionsCheckTestKey'},0
+registry:proxybypass,{'file': 'ProxyBypass'},0
+registry:rfc1156agent,{'file': 'RFC1156Agent'},0
+registry:root,{'file': 'Root'},0
+registry:software/microsoft/windows/currentversion/internet settings/connections,{'file': 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections'},0
+registry:software/policies/microsoft/windows/tenantrestrictions/payload,{'file': 'SOFTWARE\\Policies\\Microsoft\\Windows\\TenantRestrictions\\Payload'},0
+registry:software,{'file': 'Software'},0
+registry:software/microsoft/enterprisecertificates/ca,{'file': 'Software\\Microsoft\\EnterpriseCertificates\\CA'},0
+registry:software/microsoft/enterprisecertificates/disallowed,{'file': 'Software\\Microsoft\\EnterpriseCertificates\\Disallowed'},0
+registry:software/microsoft/enterprisecertificates/root,{'file': 'Software\\Microsoft\\EnterpriseCertificates\\Root'},0
+registry:software/microsoft/enterprisecertificates/trustedpeople,{'file': 'Software\\Microsoft\\EnterpriseCertificates\\TrustedPeople'},0
+registry:software/microsoft/enterprisecertificates/trust,{'file': 'Software\\Microsoft\\EnterpriseCertificates\\trust'},0
+registry:software/microsoft/rfc1156agent/currentversion/parameters,{'file': 'Software\\Microsoft\\RFC1156Agent\\CurrentVersion\\Parameters'},0
+registry:software/microsoft/tracing,{'file': 'Software\\Microsoft\\Tracing'},0
+registry:software/microsoft/wbem/cimom,{'file': 'Software\\Microsoft\\WBEM\\CIMOM'},0
+registry:software/microsoft/windowsselfhost/fids,{'file': 'Software\\Microsoft\\WindowsSelfhost\\FIDs'},0
+registry:software/microsoft/windows/currentversion/flighting/build,{'file': 'Software\\Microsoft\\Windows\\CurrentVersion\\Flighting\\Build'},0
+registry:software/microsoft/windows/currentversion/wintrust/trust providers/software publishing,{'file': 'Software\\Microsoft\\Windows\\CurrentVersion\\WinTrust\\Trust Providers\\Software Publishing'},0
+registry:system/currentcontrolset/control/securityproviders/schannel,{'file': 'System\\CurrentControlSet\\Control\\SecurityProviders\\Schannel'},0
+registry:system/currentcontrolset/services/tcpip/parameters,{'file': 'System\\CurrentControlSet\\Services\\Tcpip\\Parameters'},0
+registry:tenantrestrictions/payload,{'file': 'TenantRestrictions\\Payload'},0
+registry:uncasintranet,{'file': 'UNCAsIntranet'},0
+registry:writepermissionscheck,{'file': 'WritePermissionsCheck'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/appxpackagefullname,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\AppxPackageFullName'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/appxpackagerelativeid,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\AppxPackageRelativeId'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/binfileversion,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\BinFileVersion'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/binproductversion,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\BinProductVersion'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/binarytype,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\BinaryType'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/fileid,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\FileId'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/isoscomponent,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\IsOsComponent'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/language,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\Language'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/linkdate,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\LinkDate'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/longpathhash,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\LongPathHash'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/lowercaselongpath,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\LowerCaseLongPath'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/name,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\Name'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/originalfilename,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\OriginalFileName'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/productname,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\ProductName'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/productversion,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\ProductVersion'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/programid,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\ProgramId'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/publisher,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\Publisher'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/size,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\Size'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/usn,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\Usn'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/powershell.exe|bd2e1475245f53a2/version,{'file': '\\REGISTRY\\A\\{3AD547F4-FACE-2CD9-A59F-55212F402FBF}\\ROOT\\INVENTORYAPPLICATIONFILE\\POWERSHELL.EXE|BD2E1475245F53A2\\Version'},0
+registry:/registry/a/{3ad547f4-face-2cd9-a59f-55212f402fbf}/root/inventoryapplicationfile/permissionschecktestkey,{'file': '\\REGISTRY\\A\\{3ad547f4-face-2cd9-a59f-55212f402fbf}\\Root\\InventoryApplicationFile\\PermissionsCheckTestKey'},0
+registry:/registry/machine/software/microsoft/rfc1156agent/currentversion/parameters/trappolltimemillisecs,{'file': '\\REGISTRY\\MACHINE\\SOFTWARE\\MICROSOFT\\RFC1156AGENT\\CURRENTVERSION\\PARAMETERS\\TrapPollTimeMilliSecs'},0
+registry:/registry/machine/software/microsoft/rfc1156agent/currentversion/parameters,{'file': '\\REGISTRY\\MACHINE\\SOFTWARE\\MICROSOFT\\RFC1156AGENT\\CURRENTVERSION\\Parameters'},0
+registry:/registry/machine/software/microsoft/rfc1156agent/currentversion,{'file': '\\REGISTRY\\MACHINE\\SOFTWARE\\MICROSOFT\\RFC1156AGENT\\CurrentVersion'},0
+registry:/registry/machine/software/microsoft/windowsselfhost/fids/byfid,{'file': '\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\WindowsSelfHost\\FIDs\\ByFID'},0
+registry:/registry/machine/software/microsoft/windowsselfhost/fids/unknown,{'file': '\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\WindowsSelfHost\\FIDs\\Unknown'},0
+registry:/registry/machine/system/controlset001/services/bam/state/usersettings/s-1-5-21-319363115-539993444-1518226044-1001//device/harddiskvolume3/windows/system32/windowspowershell/v1.0/powershell.exe,{'file': '\\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\Services\\bam\\State\\UserSettings\\S-1-5-21-319363115-539993444-1518226044-1001\\\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe'},0
+registry:/registry/machine/system/controlset001/services/bam/state/usersettings/s-1-5-21-319363115-539993444-1518226044-1001//device/harddiskvolume3/windows/system32/cmd.exe,{'file': '\\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\Services\\bam\\State\\UserSettings\\S-1-5-21-319363115-539993444-1518226044-1001\\\\Device\\HarddiskVolume3\\Windows\\System32\\cmd.exe'},0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1021","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1021'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1022","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1022'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-104","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-104'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1041","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1041'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1042","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1042'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-105","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-105'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-11","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-11'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-111","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-111'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-112","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-112'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-12","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-12'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-121","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-121'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-122","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-122'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-131","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-131'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-132","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-132'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-141","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-141'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1411","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1411'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1412","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1412'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-142","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-142'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1471","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1471'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1472","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1472'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1501","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1501'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1502","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1502'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-151","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-151'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-152","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-152'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-161","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-161'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-162","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-162'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1661","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1661'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1662","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1662'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-171","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-171'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-172","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-172'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1721","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1721'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1722","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1722'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1801","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1801'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1802","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1802'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-181","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-181'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-182","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-182'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1821","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1821'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1822","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1822'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1831","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1831'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1832","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1832'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1841","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1841'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1842","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1842'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1861","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1861'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1862","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1862'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1871","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1871'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1872","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1872'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1891","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1891'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1892","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1892'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-191","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-191'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1911","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1911'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1912","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1912'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-192","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-192'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1931","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1931'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1932","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1932'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1971","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1971'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-1972","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-1972'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2001","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2001'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2002","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2002'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-201","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-201'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-202","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-202'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2041","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2041'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2042","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2042'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2061","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2061'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2062","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2062'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-211","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-211'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-212","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-212'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-214","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-214'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2141","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2141'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2142","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2142'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-215","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-215'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2161","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2161'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2162","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2162'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2181","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2181'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2182","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2182'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-221","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-221'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-222","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-222'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-231","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-231'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-232","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-232'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2321","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2321'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2322","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2322'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2341","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2341'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2342","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2342'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2371","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2371'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2372","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2372'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2391","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2391'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2392","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2392'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-241","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-241'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2411","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2411'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2412","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2412'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-242","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-242'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2431","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2431'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2432","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2432'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2451","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2451'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2452","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2452'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2491","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2491'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2492","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2492'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-251","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-251'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2511","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2511'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2512","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2512'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-252","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-252'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2531","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2531'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2532","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2532'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2571","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2571'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2572","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2572'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2591","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2591'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2592","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2592'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-261","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-261'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2611","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2611'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2612","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2612'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-262","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-262'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2631","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2631'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2632","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2632'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-271","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-271'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-272","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-272'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2751","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2751'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2752","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2752'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2771","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2771'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2772","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2772'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2791","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2791'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2792","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2792'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-281","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-281'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-282","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-282'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2841","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2841'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2842","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2842'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2871","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2871'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2872","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2872'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2891","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2891'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2892","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2892'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-291","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-291'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-292","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-292'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2941","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2941'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-2942","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-2942'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-301","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-301'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-302","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-302'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-3051","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-3051'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-3052","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-3052'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-31","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-31'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-3141","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-3141'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-3142","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-3142'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-32","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-32'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-331","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-331'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-332","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-332'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-334","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-334'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-335","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-335'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-341","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-341'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-342","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-342'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-351","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-351'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-352","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-352'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-361","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-361'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-362","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-362'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-364","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-364'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-365","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-365'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-371","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-371'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-372","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-372'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-381","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-381'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-382","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-382'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-384","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-384'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-385","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-385'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-391","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-391'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-392","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-392'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-401","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-401'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-402","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-402'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-41","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-41'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-411","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-411'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-412","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-412'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-42","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-42'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-431","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-431'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-432","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-432'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-434","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-434'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-435","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-435'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-441","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-441'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-442","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-442'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-448","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-448'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-449","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-449'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-451","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-451'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-452","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-452'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-461","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-461'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-462","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-462'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-491","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-491'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-492","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-492'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-501","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-501'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-502","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-502'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-51","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-51'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-511","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-511'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-512","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-512'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-52","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-52'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-531","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-531'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-532","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-532'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-541","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-541'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-542","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-542'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-561","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-561'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-562","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-562'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-571","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-571'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-572","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-572'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-591","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-591'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-592","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-592'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-601","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-601'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-602","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-602'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-621","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-621'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-622","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-622'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-631","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-631'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-632","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-632'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-651","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-651'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-652","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-652'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-661","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-661'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-662","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-662'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-671","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-671'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-672","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-672'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-681","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-681'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-682","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-682'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-691","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-691'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-692","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-692'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-71","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-71'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-72","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-72'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-721","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-721'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-722","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-722'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-731","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-731'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-732","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-732'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-741","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-741'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-742","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-742'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-751","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-751'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-752","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-752'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-771","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-771'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-772","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-772'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-791","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-791'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-792","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-792'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-81","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-81'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-82","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-82'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-831","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-831'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-832","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-832'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-841","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-841'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-842","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-842'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-871","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-871'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-872","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-872'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-891","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-891'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-892","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-892'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-91","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-91'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-911","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-911'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-912","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-912'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-92","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-92'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-931","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-931'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-932","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-932'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-961","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-961'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-962","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-962'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-981","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-981'}",0
+"registry:/registry/user/s-1-5-21-319363115-539993444-1518226044-1001_classes/local settings/muicache/6/52c64b7e/@tzres.dll,-982","{'file': '\\REGISTRY\\USER\\S-1-5-21-319363115-539993444-1518226044-1001_Classes\\Local Settings\\MuiCache\\6\\52C64B7E\\@tzres.dll,-982'}",0
+registry:powershell.exe|bd2e1475245f53a2,{'file': 'powershell.exe|bd2e1475245f53a2'},0

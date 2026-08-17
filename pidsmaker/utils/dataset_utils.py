@@ -309,7 +309,7 @@ ntype2id = {
 
 optc_datasets = {"optc_h201", "optc_h501", "optc_h051"}
 atlasv2_datasets = {"atlasv2_h1"}
-graph_processor_carbon_black_edr_datasets = {"atlasv2_edr", "carbanakv2_edr"}
+graph_processor_carbon_black_edr_datasets = {"atlasv2_edr", "carbanakv2_edr", "ras_severn"}
 
 optc_hostname_map = {
     "optc_h051": "SysClient0051",

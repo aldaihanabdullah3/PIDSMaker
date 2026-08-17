@@ -507,6 +507,87 @@ DATASET_DEFAULT_CONFIG = {
             ["carbanakv2_edr/carbanakv2_edr.csv", "2024-04-30 17:30:00", "2024-05-10 20:30:00"]
         ],
     },
+    # RAS Garonne scenario (Linux, sysdig collector). No entry is needed in any relation-map
+    # list: get_rel2id falls through to rel2id_darpa_tc, the vocabulary this collector emits.
+    # Captures are independent VM restores from the same clean snapshot, so wall-clock time
+    # carries no information and several captures share a date in the raw data.
+    # create_database_ras.py rebases each onto a synthetic date of its own, spaced two apart
+    # so a ~24.3h benign capture spills its overflow onto a date that is in no split. The
+    # capture-to-date mapping is the CAPTURES table in that script; these dates must match it.
+    "RAS_GARONNE": {
+        "raw_dir": "",
+        "database": "ras_garonne",
+        "database_all_file": "ras_garonne",
+        "num_node_types": 3,
+        "num_edge_types": 10,
+        "start_date": "2026-01-01",
+        "end_date": "2026-01-24",
+        # Eight benign captures: seven train, one validation. There is no held-out benign
+        # test date; the false-positive rate is read from the benign majority inside each
+        # attack capture instead.
+        "train_dates": [
+            "2026-01-01",
+            "2026-01-03",
+            "2026-01-05",
+            "2026-01-07",
+            "2026-01-09",
+            "2026-01-11",
+            "2026-01-13",
+        ],
+        "val_dates": ["2026-01-15"],
+        "test_dates": ["2026-01-17", "2026-01-19", "2026-01-21", "2026-01-23"],
+        "unused_dates": [],
+        "ground_truth_relative_path": [
+            "ras_garonne/loud_gt_pids.csv",
+            "ras_garonne/medium_gt_pids.csv",
+            "ras_garonne/hard_gt_pids.csv",
+            "ras_garonne/evasive_gt_pids.csv",
+        ],
+        # One attack run per synthetic date, so each window is simply its whole day.
+        "attack_to_time_window": [
+            ["ras_garonne/loud_gt_pids.csv", "2026-01-17 00:00:00", "2026-01-17 23:59:59"],
+            ["ras_garonne/medium_gt_pids.csv", "2026-01-19 00:00:00", "2026-01-19 23:59:59"],
+            ["ras_garonne/hard_gt_pids.csv", "2026-01-21 00:00:00", "2026-01-21 23:59:59"],
+            ["ras_garonne/evasive_gt_pids.csv", "2026-01-23 00:00:00", "2026-01-23 23:59:59"],
+        ],
+    },
+    # RAS Severn scenario (Windows, ETW collector). Requires "ras_severn" in
+    # graph_processor_carbon_black_edr_datasets so get_rel2id returns the Carbon Black map.
+    # Same layout as RAS_GARONNE. Dates are reused across the two datasets on purpose: each
+    # is a separate database, so there is nothing to collide with.
+    "RAS_SEVERN": {
+        "raw_dir": "",
+        "database": "ras_severn",
+        "database_all_file": "ras_severn",
+        "num_node_types": 3,
+        "num_edge_types": 33,
+        "start_date": "2026-01-01",
+        "end_date": "2026-01-24",
+        "train_dates": [
+            "2026-01-01",
+            "2026-01-03",
+            "2026-01-05",
+            "2026-01-07",
+            "2026-01-09",
+            "2026-01-11",
+            "2026-01-13",
+        ],
+        "val_dates": ["2026-01-15"],
+        "test_dates": ["2026-01-17", "2026-01-19", "2026-01-21", "2026-01-23"],
+        "unused_dates": [],
+        "ground_truth_relative_path": [
+            "ras_severn/loud_gt_pids.csv",
+            "ras_severn/medium_gt_pids.csv",
+            "ras_severn/hard_gt_pids.csv",
+            "ras_severn/evasive_gt_pids.csv",
+        ],
+        "attack_to_time_window": [
+            ["ras_severn/loud_gt_pids.csv", "2026-01-17 00:00:00", "2026-01-17 23:59:59"],
+            ["ras_severn/medium_gt_pids.csv", "2026-01-19 00:00:00", "2026-01-19 23:59:59"],
+            ["ras_severn/hard_gt_pids.csv", "2026-01-21 00:00:00", "2026-01-21 23:59:59"],
+            ["ras_severn/evasive_gt_pids.csv", "2026-01-23 00:00:00", "2026-01-23 23:59:59"],
+        ],
+    },
 }
 
 # Arguments
