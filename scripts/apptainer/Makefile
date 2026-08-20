@@ -2,6 +2,15 @@
 
 .PHONY: up down status load-dumps full-setup logs clean help
 
+JOB_TAG ?= $(if $(PBS_JOBID),$(PBS_JOBID),$(if $(SLURM_JOB_ID),$(SLURM_JOB_ID),local))
+POSTGRES_INSTANCE ?= postgres_$(JOB_TAG)
+RUNTIME_ROOT ?= $(if $(TMPDIR),$(TMPDIR),$(CURDIR))/pidsmaker-postgres-$(JOB_TAG)
+POSTGRES_DATA_DIR ?= $(RUNTIME_ROOT)/data
+POSTGRES_RUN_DIR ?= $(RUNTIME_ROOT)/run
+POSTGRES_LOG_DIR ?= $(RUNTIME_ROOT)/log
+export JOB_TAG POSTGRES_INSTANCE RUNTIME_ROOT
+export POSTGRES_DATA_DIR POSTGRES_RUN_DIR POSTGRES_LOG_DIR
+
 # PostgreSQL management
 up:
 	@./postgres-start.sh
@@ -14,11 +23,11 @@ status:
 
 logs:
 	@echo "PostgreSQL logs:"
-	@tail -f postgres_log/postgresql*.log 2>/dev/null || echo "No logs found"
+	@tail -f $(POSTGRES_LOG_DIR)/postgresql*.log 2>/dev/null || echo "No logs found"
 
 clean: down
 	@echo "Cleaning up PostgreSQL data..."
-	@rm -rf postgres_data postgres_run postgres_log
+	@rm -rf $(POSTGRES_DATA_DIR) $(POSTGRES_RUN_DIR) $(POSTGRES_LOG_DIR)
 	@echo "PostgreSQL data cleaned"
 
 reset: clean up
@@ -37,10 +46,11 @@ app-run: up
 	@echo "Running PIDSMaker application..."
 	@CONTAINER_CMD=$$(command -v apptainer &> /dev/null && echo "apptainer" || echo "singularity"); \
 	$$CONTAINER_CMD run --nv \
-		--env DB_HOST=localhost \
+		--env DB_HOST=/var/run/postgresql \
 		--env DOCKER_PORT=5432 \
 		--env DB_USER=postgres \
 		--env DB_PASSWORD=postgres \
+		--bind $(POSTGRES_RUN_DIR):/var/run/postgresql \
 		--bind ${PWD}:/workspace \
 		pidsmaker.sif
 
@@ -49,7 +59,7 @@ load-dumps: up
 	@CONTAINER_CMD=$$(command -v apptainer &> /dev/null && echo "apptainer" || echo "singularity"); \
 	if [ -f "./load_dumps.sh" ]; then \
 		echo "Found load_dumps.sh, executing inside container..."; \
-		$$CONTAINER_CMD exec instance://postgres_instance /scripts/load_dumps.sh; \
+		$$CONTAINER_CMD exec instance://$(POSTGRES_INSTANCE) /scripts/load_dumps.sh --host /var/run/postgresql; \
 	    else \
 		echo "Error: ./load_dumps.sh not found"; \
 		exit 1; \

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # PostgreSQL status script for Singularity/Apptainer
 
@@ -12,6 +12,16 @@ else
     exit 1
 fi
 
+set -euo pipefail
+
+JOB_TAG=${JOB_TAG:-${PBS_JOBID:-${SLURM_JOB_ID:-local}}}
+JOB_TAG=${JOB_TAG//[^A-Za-z0-9_.-]/_}
+POSTGRES_INSTANCE=${POSTGRES_INSTANCE:-postgres_${JOB_TAG}}
+RUNTIME_ROOT=${RUNTIME_ROOT:-${TMPDIR:-$(pwd)}/pidsmaker-postgres-${JOB_TAG}}
+RUN_DIR=${POSTGRES_RUN_DIR:-${RUN_DIR:-${RUNTIME_ROOT}/run}}
+PID_FILE=${POSTGRES_PID_FILE:-${PID_FILE:-${RUNTIME_ROOT}/instance.pid}}
+SOCKET_PATH=${RUN_DIR}/.s.PGSQL.5432
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -24,60 +34,49 @@ echo -e "${YELLOW}PostgreSQL Status:${NC}"
 POSTGRES_RUNNING=false
 
 # Method 1: Check PID file
-if [ -f postgres.pid ]; then
-    PID=$(cat postgres.pid)
+if [ -f "$PID_FILE" ]; then
+    PID=$(cat "$PID_FILE")
     if kill -0 $PID 2>/dev/null; then
         echo -e "${GREEN}✓ PostgreSQL process is running (PID: $PID)${NC}"
         POSTGRES_RUNNING=true
     else
         echo -e "${YELLOW}! PID file exists but process is not running${NC}"
-        rm postgres.pid
+        rm -f "$PID_FILE"
     fi
 fi
 
-# Method 2: Check if we can connect (most reliable test)
-if [ ! -f postgres.sif ]; then
-    echo -e "${RED}✗ postgres.sif not found${NC}"
-    exit 1
-fi
-
-if $CONTAINER_CMD exec postgres.sif pg_isready -h localhost -U postgres > /dev/null 2>&1; then
+# Method 2: Check this job's instance and Unix socket.
+if $CONTAINER_CMD instance list | awk 'NR > 1 {print $1}' | grep -Fxq "$POSTGRES_INSTANCE" && \
+   $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE \
+         pg_isready -h /var/run/postgresql -U postgres > /dev/null 2>&1; then
     echo -e "${GREEN}✓ PostgreSQL is accepting connections${NC}"
-    echo -e "${GREEN}  Connection: ${CONTAINER_CMD} exec postgres.sif psql -h localhost -U postgres${NC}"
+    echo -e "${GREEN}  Instance: ${POSTGRES_INSTANCE}${NC}"
+     echo -e "${GREEN}  Unix socket: ${SOCKET_PATH}${NC}"
     POSTGRES_RUNNING=true
     
     # Show database list
     echo -e "${YELLOW}Databases:${NC}"
-    $CONTAINER_CMD exec postgres.sif psql -h localhost -U postgres -c "\l" 2>/dev/null | \
+    $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE \
+        psql -h /var/run/postgresql -U postgres -c "\l" 2>/dev/null | \
         grep -v template | grep -v "^-" | grep -v "^(" | grep -v "Name.*Owner" | \
         grep -v "^\s*$" | head -10
     
     # Show PostgreSQL version
     echo -e "${YELLOW}Version:${NC}"
-    $CONTAINER_CMD exec postgres.sif psql -h localhost -U postgres -c "SELECT version();" -t 2>/dev/null | head -1
+    $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE \
+        psql -h /var/run/postgresql -U postgres \
+        -c "SELECT version();" -t 2>/dev/null | head -1
     
 else
     echo -e "${RED}✗ PostgreSQL is not accepting connections${NC}"
 fi
 
-# Method 3: Check process list as fallback
-if [ "$POSTGRES_RUNNING" = false ]; then
-    # Check for any postgres-related processes with more flexible patterns
-    if pgrep -f "postgres" > /dev/null || pgrep -f "${CONTAINER_CMD}.*postgres" > /dev/null; then
-        echo -e "${YELLOW}! Found postgres-related process but cannot connect${NC}"
-        echo -e "${YELLOW}  Process list:${NC}"
-        ps aux | grep -E "(postgres|${CONTAINER_CMD})" | grep -v grep | head -5
-    else
-        echo -e "${RED}✗ No PostgreSQL processes found${NC}"
-    fi
-fi
-
-# Method 4: Check if port 5432 is listening
-if ss -tlnp 2>/dev/null | grep -q ":5432 " || netstat -tlnp 2>/dev/null | grep -q ":5432 "; then
-    echo -e "${GREEN}✓ Port 5432 is listening${NC}"
+# Method 3: Check this job's host-side Unix socket.
+if [ -S "$SOCKET_PATH" ]; then
+    echo -e "${GREEN}✓ Unix socket exists: ${SOCKET_PATH}${NC}"
     POSTGRES_RUNNING=true
 else
-    echo -e "${RED}✗ Port 5432 is not listening${NC}"
+    echo -e "${RED}✗ Unix socket does not exist: ${SOCKET_PATH}${NC}"
 fi
 
 # Final status

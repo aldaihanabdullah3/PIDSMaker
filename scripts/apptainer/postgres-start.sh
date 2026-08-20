@@ -2,7 +2,7 @@
 
 # PostgreSQL startup script for Singularity/Apptainer
 
-set -e
+set -euo pipefail
 
 # Detect which container runtime is available
 if command -v apptainer &> /dev/null; then
@@ -21,12 +21,17 @@ else
     exit 1
 fi
 
-# Configuration
-POSTGRES_IMAGE="postgres.sif"
-POSTGRES_INSTANCE="postgres_instance"
-DATA_DIR="postgres_data"
-RUN_DIR="postgres_run"
-LOG_DIR="postgres_log"
+# Set these variables per scheduler job. JOB_TAG keeps concurrent jobs separate by
+# default, while explicit values support schedulers that do not define a job ID.
+JOB_TAG=${JOB_TAG:-${PBS_JOBID:-${SLURM_JOB_ID:-local}}}
+JOB_TAG=${JOB_TAG//[^A-Za-z0-9_.-]/_}
+POSTGRES_IMAGE=${POSTGRES_IMAGE:-$(pwd)/postgres.sif}
+POSTGRES_INSTANCE=${POSTGRES_INSTANCE:-postgres_${JOB_TAG}}
+RUNTIME_ROOT=${RUNTIME_ROOT:-${TMPDIR:-$(pwd)}/pidsmaker-postgres-${JOB_TAG}}
+DATA_DIR=${POSTGRES_DATA_DIR:-${DATA_DIR:-${RUNTIME_ROOT}/data}}
+RUN_DIR=${POSTGRES_RUN_DIR:-${RUN_DIR:-${RUNTIME_ROOT}/run}}
+LOG_DIR=${POSTGRES_LOG_DIR:-${LOG_DIR:-${RUNTIME_ROOT}/log}}
+PID_FILE=${POSTGRES_PID_FILE:-${PID_FILE:-${RUNTIME_ROOT}/instance.pid}}
 
 # Colors for output
 RED='\033[0;31m'
@@ -44,7 +49,7 @@ fi
 
 # Create necessary directories
 echo -e "${YELLOW}Creating directories...${NC}"
-mkdir -p $DATA_DIR $RUN_DIR $LOG_DIR
+mkdir -p "$DATA_DIR" "$RUN_DIR" "$LOG_DIR"
 
 # Create INPUT_DIR if it doesn't exist
 INPUT_DIR=${INPUT_DIR:-$(pwd)/data}
@@ -53,11 +58,12 @@ if [ ! -d "$INPUT_DIR" ]; then
     mkdir -p "$INPUT_DIR"
 fi
 
-# Check if instance already exists
-if $CONTAINER_CMD instance list | grep -q "$POSTGRES_INSTANCE"; then
+# Check if this job's instance already exists.
+if $CONTAINER_CMD instance list | awk 'NR > 1 {print $1}' | grep -Fxq "$POSTGRES_INSTANCE"; then
     echo -e "${YELLOW}PostgreSQL instance $POSTGRES_INSTANCE already exists${NC}"
     # Check if it's responsive
-    if $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE pg_isready -h localhost -U postgres > /dev/null 2>&1; then
+    if $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE \
+        pg_isready -h /var/run/postgresql -U postgres > /dev/null 2>&1; then
         echo -e "${GREEN}PostgreSQL instance is already running and responsive${NC}"
         exit 0
     else
@@ -65,13 +71,6 @@ if $CONTAINER_CMD instance list | grep -q "$POSTGRES_INSTANCE"; then
         $CONTAINER_CMD instance stop $POSTGRES_INSTANCE
         sleep 2
     fi
-fi
-
-# Check if any other postgres processes are running
-if pgrep -f "${CONTAINER_CMD}.*postgres" > /dev/null; then
-    echo -e "${YELLOW}Other PostgreSQL processes detected, cleaning up...${NC}"
-    pkill -f "${CONTAINER_CMD}.*postgres" || true
-    sleep 2
 fi
 
 # Set environment variables (works for both singularity and apptainer)
@@ -102,25 +101,30 @@ fi
 # Start PostgreSQL instance
 echo -e "${YELLOW}Starting PostgreSQL instance...${NC}"
 echo -e "${YELLOW}Using INPUT_DIR: $INPUT_DIR${NC}"
+echo -e "${YELLOW}Using instance: $POSTGRES_INSTANCE${NC}"
+echo -e "${YELLOW}Using Unix socket directory: $RUN_DIR${NC}"
+echo -e "${YELLOW}Using data directory: $DATA_DIR${NC}"
 
 $CONTAINER_CMD instance start $BIND_MOUNTS $POSTGRES_IMAGE $POSTGRES_INSTANCE
 
 # Start PostgreSQL inside the instance
 echo -e "${YELLOW}Starting PostgreSQL server inside instance...${NC}"
-$CONTAINER_CMD exec instance://$POSTGRES_INSTANCE bash -c "docker-entrypoint.sh postgres &"
+$CONTAINER_CMD exec instance://$POSTGRES_INSTANCE \
+    bash -c "docker-entrypoint.sh postgres -c listen_addresses='' -k /var/run/postgresql &"
 
 # Get the PID of the instance (optional, for compatibility)
-INSTANCE_PID=$(pgrep -f "${CONTAINER_CMD}.*$POSTGRES_INSTANCE" | head -1)
+INSTANCE_PID=$(pgrep -f "${CONTAINER_CMD}.*$POSTGRES_INSTANCE" | head -1 || true)
 if [ -n "$INSTANCE_PID" ]; then
-    echo $INSTANCE_PID > postgres.pid
+    echo "$INSTANCE_PID" > "$PID_FILE"
 fi
 
 # Wait for PostgreSQL to be ready
 echo -e "${YELLOW}Waiting for PostgreSQL to start...${NC}"
 for i in {1..30}; do
-    if $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE pg_isready -h localhost -U postgres > /dev/null 2>&1; then
+    if $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE \
+        pg_isready -h /var/run/postgresql -U postgres > /dev/null 2>&1; then
         echo -e "${GREEN}PostgreSQL is ready!${NC}"
-        echo -e "${GREEN}Connection: $CONTAINER_CMD exec instance://$POSTGRES_INSTANCE psql -h localhost -U postgres${NC}"
+        echo -e "${GREEN}Connection: psql -h $RUN_DIR -U postgres${NC}"
         echo -e "${GREEN}Instance: $POSTGRES_INSTANCE${NC}"
         exit 0
     fi

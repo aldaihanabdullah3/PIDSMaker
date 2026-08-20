@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # PostgreSQL shutdown script for Singularity/Apptainer
 
@@ -12,6 +12,14 @@ else
     exit 1
 fi
 
+set -euo pipefail
+
+JOB_TAG=${JOB_TAG:-${PBS_JOBID:-${SLURM_JOB_ID:-local}}}
+JOB_TAG=${JOB_TAG//[^A-Za-z0-9_.-]/_}
+POSTGRES_INSTANCE=${POSTGRES_INSTANCE:-postgres_${JOB_TAG}}
+RUNTIME_ROOT=${RUNTIME_ROOT:-${TMPDIR:-$(pwd)}/pidsmaker-postgres-${JOB_TAG}}
+PID_FILE=${POSTGRES_PID_FILE:-${PID_FILE:-${RUNTIME_ROOT}/instance.pid}}
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -22,43 +30,14 @@ echo -e "${YELLOW}Stopping PostgreSQL...${NC}"
 
 STOPPED=false
 
-# Method 1: Stop instance if it exists
-if $CONTAINER_CMD instance list | grep -q "postgres_instance"; then
-    echo -e "${YELLOW}Stopping ${CONTAINER_CMD} instance: postgres_instance${NC}"
-    $CONTAINER_CMD instance stop postgres_instance
+# Stop only this job's instance. Never kill PostgreSQL processes from another job.
+if $CONTAINER_CMD instance list | awk 'NR > 1 {print $1}' | grep -Fxq "$POSTGRES_INSTANCE"; then
+    echo -e "${YELLOW}Stopping ${CONTAINER_CMD} instance: $POSTGRES_INSTANCE${NC}"
+    $CONTAINER_CMD instance stop "$POSTGRES_INSTANCE"
     STOPPED=true
 fi
 
-# Method 2: Stop using PID file if it exists
-if [ -f postgres.pid ]; then
-    PID=$(cat postgres.pid)
-    if kill -0 $PID 2>/dev/null; then
-        echo -e "${YELLOW}Stopping PostgreSQL process (PID: $PID)${NC}"
-        kill $PID
-        # Wait for graceful shutdown
-        for i in {1..10}; do
-            if ! kill -0 $PID 2>/dev/null; then
-                echo -e "${GREEN}PostgreSQL stopped gracefully${NC}"
-                STOPPED=true
-                break
-            fi
-            sleep 1
-        done
-        # Force kill if still running
-        if kill -0 $PID 2>/dev/null; then
-            echo -e "${YELLOW}Force killing PostgreSQL${NC}"
-            kill -9 $PID
-            STOPPED=true
-        fi
-    fi
-    rm postgres.pid
-fi
-
-# Method 3: Fallback - kill any container postgres processes
-if pkill -f "${CONTAINER_CMD}.*postgres"; then
-    echo -e "${YELLOW}Killed remaining PostgreSQL processes${NC}"
-    STOPPED=true
-fi
+rm -f "$PID_FILE"
 
 if [ "$STOPPED" = true ]; then
     echo -e "${GREEN}PostgreSQL stopped${NC}"
