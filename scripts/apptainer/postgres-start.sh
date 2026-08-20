@@ -90,6 +90,7 @@ BIND_MOUNTS="--bind $DATA_DIR:/var/lib/postgresql/data"
 BIND_MOUNTS="$BIND_MOUNTS --bind $RUN_DIR:/var/run/postgresql"
 BIND_MOUNTS="$BIND_MOUNTS --bind $LOG_DIR:/var/log"
 BIND_MOUNTS="$BIND_MOUNTS --bind ./:/scripts"
+BIND_MOUNTS="$BIND_MOUNTS --bind ../load_dumps.sh:/scripts/load_dumps-common.sh"
 
 # Always bind INPUT_DIR
 BIND_MOUNTS="$BIND_MOUNTS --bind $INPUT_DIR:/data"
